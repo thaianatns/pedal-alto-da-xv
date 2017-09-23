@@ -1,0 +1,42 @@
+
+#mapa {
+	border: 2px #bdbdbd solid;
+	border-radius: 10px;
+	padding: 0;
+	
+	
+}
+
+.jumbotron{
+	padding-top: 10px;
+}
+
+#titulo{
+	margin-bottom: 50px;
+}
+
+#caixa{
+	background-color: #bdbdbd;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-radius: 10px;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
