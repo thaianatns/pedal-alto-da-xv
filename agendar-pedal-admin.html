@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Agendar Pedal</title>
+
+    
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/agendar-pedal-admin.css">
+  </head>
+
+  <body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand navbar-left" href="#"> <img style="max-width:50px; margin-top:-10px;" src="images/logo.jpg" alt="logo do grupo"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+           <ul class="nav navbar-nav">
+        <li class="active">
+          <a href="">Agendar Pedal</a>
+        </li>
+         <li>
+          <a href="">Histórico</a>
+        </li>
+        <li>
+          <a href="">Usuários Cadastrados</a>
+        </li>
+        <li>
+          <a href="">Alterar Foto de Capa</a>
+        </li>
+        <li><a href="">Home Usuário</a></li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li><a href="">Sair</a></li>
+        
+      </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <div class="main-content">
+
+      <form class="form-labels-on-top">
+        <div class="form-title-row">
+                <h1>Agendar Pedal</h1>
+            </div>
+
+        <div class="form-row">
+          <label>
+              <span>Nome do Pedal:</span>
+              <input type="text" id="inputTitulo" class="form-control" autofocus>
+          </label>
+        </div>
+
+        <div class="form-row">
+          <label>
+              <span>Destino:</span>
+              <input type="text" id="inputDestino" class="form-control" autofocus>
+          </label>
+        </div>
+
+        <div class="form-row">
+          <label>
+              <span>Data:</span>
+              <input type="date" id="inputData" class="form-control" autofocus>
+          </label>
+        </div>
+          
+        <div class="form-row">
+          <label>
+              <span>Distância Km:</span>
+               <input type="number" id="inputDistancia" class="form-control"  required autofocus>
+          </label>
+        </div>
+
+        <div class="form-row">
+          <label>
+          <span>Terreno:</span>
+          <select name="terreno">
+              <option value="1">Misto</option>
+              <option value="2">Asfalto</option>
+              <option value="3">Terra</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="form-row">
+          <label>
+            <span>Nível:</span>
+            <select name="nivel" id="nivel">          
+              <option value="1">Iniciante</option>
+              <option value="2" selected>Intermediário</option>
+              <option value="3">Avançado</option>
+            </select>
+          </label>
+        </div>
+
+
+        <div class="form-row">
+          <label>
+            <span>Concentração:</span>
+            <input type="text" id="inputLocalConcentracao" class="form-control" placeholder="Local" required autofocus>    
+            <br>
+            <input type="time" id="inputHoraConcentracao" class="form-control" placeholder="Hora" required autofocus>
+          </label>
+        </div>
+
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Confirmar</button>
+      </form>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
