@@ -1,13 +1,27 @@
 .jumbotron{
 	background-color: #fff;
 }
- 
 
- .caixa{
- 	
- }
-
- .caixa:hover{
+#logo{
+	width: 45px;
+	border-radius: 50%;
+	position: relative;
+	top: -12px;
+}
+#sair{
+	color: white;
+	font-weight: bold;
+	position: relative;
+	top: 7px;
+}
+#sair:hover{
+	color: white;
+	font-weight: bold;
+	position: relative;
+	top: 7px;
+	text-decoration: underline;
+}
+.caixa:hover{
  	border: 0px solid gray;
  	border-radius: 10px;
  	background-color:#e0e0e0;
@@ -17,21 +31,21 @@
  	margin-top: 20px;
  }
 
- .intro-header { 	
-    background: center center no-repeat;
-    background-image: url('../images/high.jpg');
-    background-size: auto auto;    
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    margin-bottom: 50px;
-    
+.intro-header {
+  background: center center no-repeat;
+  background-image: url('../images/high.jpg');
+  background-size: auto auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 50px;
 }
+
 .site-heading {
-    padding: 150px 0;        
+    padding: 150px 0;
 	color: #fff;
-	
+
 }
 
 h1{
